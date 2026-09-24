@@ -1,0 +1,6 @@
+#ConnectionStrings__DefaultConnection=Server=host.docker.internal,1433;Database=Mango_Reward;User Id=sa;Password=Admin@786_123;TrustServerCertificate=true;Encrypt=False
+Http__ConnectionStrings__DefaultConnection=Server=localhost,1433;Database=Mango_Reward;User Id=sa;Password=Admin@786_123;TrustServerCertificate=true;Encrypt=False
+Docker__ConnectionStrings__DefaultConnection=Server=host.docker.internal,1433;Database=Mango_Reward;User Id=sa;Password=Admin@786_123;TrustServerCertificate=true;Encrypt=False
+
+ASPNETCORE_ENVIRONMENT=Development
+ASPNETCORE_HTTP_PORTS=8080
