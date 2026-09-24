@@ -44,6 +44,8 @@ services:
     build:
       context: ./Backend/Mango.Services.CouponAPI
       dockerfile: Dockerfile
+    env_file:
+      - ./Backend/Mango.Services.CouponAPI/.env
     ports:
       - "5104:8080"
       - "7001:8081"
@@ -56,6 +58,8 @@ services:
     build:
       context: ./Backend/Mango.Services.RewardAPI
       dockerfile: Dockerfile
+    env_file:
+      - ./Backend/Mango.Services.RewardAPI/.env
     ports:
       - "5202:8080"
       - "7009:8081"
@@ -70,6 +74,8 @@ services:
       dockerfile: Dockerfile
       secrets:
         - nugetconfig
+    env_file:
+      - ./Backend/Mango.Services.OrderAPI/.env
     ports:
       - "5201:8080"
       - "7004:8081"
