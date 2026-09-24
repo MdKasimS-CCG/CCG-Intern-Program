@@ -105,6 +105,7 @@ services:
       - "5220:8080"
     networks:
       - mango-network
+  
   mango-web:
     image: ${DOCKER_REGISTRY-}mangoweb
     build:
