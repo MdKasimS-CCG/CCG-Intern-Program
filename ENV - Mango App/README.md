@@ -19,3 +19,5 @@
 | Mango Order API | 5201 | Order Management |
 | Mango Shopping Cart API | 5220 | Shopping Cart Service |
 | Mango Web | 5048 | Frontend Application |
+
+<img width="1328" height="746" alt="image" src="https://github.com/user-attachments/assets/1e01c7ee-c8e9-4e49-a837-8d6e0c043cdd" />
